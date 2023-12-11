@@ -1,0 +1,246 @@
+body{
+
+    background-color: black;
+    white-space: nowrap;
+}
+
+.logo{
+  width: 200px;
+
+}
+
+.flex-box{
+    width: 1000px;
+    height: 1500px;
+}
+.pro{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: inkant;
+    position: absolute;
+    left: 800px;
+    top: 130px;
+   
+    
+}
+
+.abt{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: inkant;
+    position:absolute;
+    left: 200px;
+    top: 1110px;
+}
+
+.pro-1{
+    opacity: 1;
+    background-image: url(Lineart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 400px;
+    position:absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.pro-2{
+    opacity: 1;
+    background-image: url(bookcover.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 400px;
+    position:absolute;
+    left: 770px;
+    top: 400px;
+}
+
+.pro-3{
+    opacity: 1;
+    background-image: url(Poster\ 1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 400px;
+    position:absolute;
+    left: 200px;
+    top: 650px;
+}
+
+.pro-4{
+    opacity: 1;
+    background-image: url(MotionsBook2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 400px;
+    position:absolute;
+    left: 770px;
+    top: 850px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-home:hover{
+    color:  #2A6C38;
+    transition: 0.5s;
+}
+
+.linklogo:hover{
+  filter: brightness(1.75);
+  transition: 0.5s;
+
+}
+
+.img-1{
+    width: 520px;
+    height: 400px;
+    opacity: 0;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.link-1{
+    opacity: 0;
+    display: grid;
+    align-items: center;
+    background-color: #2A6C38;
+    width: 520px;
+    height: 400px;
+    position:absolute;
+    left: 200px;
+    top: 200px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: inkant;
+}
+
+.link-2{
+    opacity: 0;
+    background-color: #2A6C38;
+    width: 520px;
+    height: 382px;
+    position:absolute;
+    left: 770px;
+    top: 417px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: inkant;
+}
+
+.link-3{
+    opacity: 0;
+    background-color: #2A6C38;
+    width: 520px;
+    height: 400px;
+    position:absolute;
+    left: 200px;
+    top: 650px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: inkant;
+}
+
+.link-4{
+    opacity: 0;
+    background-color: #2A6C38;
+    width: 520px;
+    height: 400px;
+    position:absolute;
+    left: 770px;
+    top: 850px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: inkant;
+}
+
+.pro-1, .link-1{
+    transition: ease-in-out .5s;
+}
+
+  .box-1 {
+    width: auto;
+    display: inline-block;
+  }
+  
+  .box-1:hover .pro-1 {
+    opacity: 1;
+  }
+  
+  .box-1:hover .link-1 {
+    opacity: .9;
+  }
+  
+  .pro-2, .link-2{
+    transition: ease-in-out .5s;
+}
+  
+  .box-2 {
+    width: auto;
+    display: inline-block;
+  }
+  
+  .box-2:hover .pro-2 {
+    opacity: 1;
+  }
+  
+  .box-2:hover .link-2 {
+    opacity: .9;
+  }
+
+  .pro-3, .link-3{
+    transition: ease-in-out .5s;
+}
+  
+  .box-3 {
+    width: auto;
+    display: inline-block;
+  }
+  
+  .box-3:hover .pro-3 {
+    opacity: 1;
+  }
+  
+  .box-3:hover .link-3 {
+    opacity: .9;
+  }
+
+  .pro-4, .link-4{
+    transition: ease-in-out .5s;
+}
+
+  .box-4 {
+    width: auto;
+    display: inline-block;
+  }
+  
+  .box-4:hover .pro-4 {
+    opacity: 1;
+  }
+  
+  .box-4:hover .link-4 {
+    opacity: .9;
+  }
+
+  
+@font-face {
+    font-family: inkant;
+    src: url(InknutAntiqua-Regular.ttf);
+}
+

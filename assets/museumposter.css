@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    font-family: inkant;
+    color: white;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: inkant;
+    src: url(InknutAntiqua-Regular.ttf);
+}
+
+.flex-box{
+    width: 1500px;
+    height: 2250px;
+}
+
+.return{
+    position: absolute;
+    font-size: 50px;
+    left: 50px;
+}
+
+.title{
+    position: absolute;
+    font-size: 100px;
+    top: -25px;
+    left: 500px;
+}
+
+img{
+    width: 700px;
+    height: auto;
+    position: absolute;
+}
+
+.img1{
+    top: 200px;
+    left: 50px;
+
+}
+
+.img2{
+    top: 1200px;
+    left: 700px;
+
+}
+
+.info{
+    position: absolute;
+    top: 1185px;
+    left: 50px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:  #2A6C38;
+    transition: 0.5s;
+}
